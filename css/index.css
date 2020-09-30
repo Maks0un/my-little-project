@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap");
+
+
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    max-width: 1200px;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+}
+
+:root {
+    scroll-behavior: smooth;
+    --main-color:black;
+    --acent-color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.header-banner {
+    background-image: url(../img/home-photo-vine-butel.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#phrase {
+    color:white;
+    font-family: 'Lobster', sans-serif;
+    font-size: 35px;
+    justify-content: top;
+    align-items: top;
+}
+
+#name-shop h1 {
+    font-size: 3.5rem;
+    color: var(--main-color);
+    font-family: 'Lobster', sans-serif;
+    background-color:white;
+}
+
+.carouselDiv {
+    margin:20px;
+    text-align:center;
+}
+
+main {
+    margin:20px;
+    text-align:center;
+}
+
+hr {
+    margin: 20px;
+}
+
+.img-carusel {
+    width: 450px;
+
+}
+.dry-wine-to-carousel{
+    width: 150px;
+}
+
+.dry-wine-to-shop {
+max-width: 80px;
+}
+
+
+#products-name {
+    margin: 20px;
+    color: var(--main-color);
+    font-size: 1.5rem
+}
+
+#text-to-shop {
+    margin:40px;
+    font-family:  'Lobster', sans-serif;
+}
+
