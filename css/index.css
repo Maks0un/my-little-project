@@ -98,8 +98,15 @@ max-width: 80px;
     color:var(--importantText-color);
 }
 
-.navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
-    color:var(--importantText-color);
+.navbar-light .navbar-nav {
+    text-decoration: none;
+    padding:11px;
+    border: 1px solid transparent;
+}
+
+.navbar-light .navbar-nav a:hover {
+    border: 1px solid var(--importantText-color);
+    border-radius: 10%;
 }
 
 .contact-item {
@@ -124,15 +131,10 @@ max-width: 80px;
     justify-content: space-around;
 }
 
-.navbar-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
+#btn-footer {
+    width: 100%;
+}
+
+nav #header-nav-padding {
+    padding:20px;
 }
