@@ -62,17 +62,8 @@ hr {
 }
 
 .img-carusel {
-    width: 450px;
-
+    width: 100%;
 }
-.dry-wine-to-carousel{
-    width: 450px;
-}
-
-.dry-wine-to-shop {
-max-width: 80px;
-}
-
 
 #products-name {
     margin: 20px;
@@ -83,6 +74,7 @@ max-width: 80px;
 #text-to-shop {
     margin:40px;
     font-family:  'Lobster', sans-serif;
+    color:var(--importantText-color);
 }
 
 .navbar-light .navbar-brand {
@@ -102,6 +94,11 @@ max-width: 80px;
     text-decoration: none;
     padding:11px;
     border: 1px solid transparent;
+}
+
+.navbar-light .navbar-nav a {
+    border: 2px solid transparent;
+    border-radius: 10%;
 }
 
 .navbar-light .navbar-nav a:hover {
@@ -145,6 +142,7 @@ nav #header-nav-padding {
     font-size: 1.5rem;
     font-family:  'Lobster', sans-serif;
     text-align: center;
+    color:white
 }
 
 #table-catalog {
@@ -158,4 +156,24 @@ nav #header-nav-padding {
     color: #fff;
     background-color: rgb(133, 50, 150);
     border-color: rgb(133, 50, 150);
+}
+
+#table-catalog-right {
+    display:block;
+    text-align: right;
+    margin-right: 200px;
+}
+
+#table-catalog-left {
+    float:left;
+    margin-left: 200px;
+}
+
+@media (max-width:721px) {
+    #table-catalog-left{
+        margin-left: 0px;
+    }
+    #table-catalog-right {
+        margin-left: 0px;
+    }
 }
