@@ -5,5 +5,22 @@
 
 .img-decoration-title-left {
     float:left;
-    width:350px
+    width:350px;
 }
+
+.footer-decoration-title {
+    display:none;
+}
+
+ @media (max-width:886px) {
+     .img-decoration-title-left {
+        display:none;
+     }
+    .img-decoration-title-right {
+        display:none;
+    }
+    .footer-decoration-title {
+        display: block;
+        margin: 0 auto;
+    }
+ }
