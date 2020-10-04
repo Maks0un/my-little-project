@@ -12,6 +12,10 @@
     display:none;
 }
 
+.footer-decoration-title-mini {
+    display:none;
+}
+
  @media (max-width:886px) {
      .img-decoration-title-left {
         display:none;
@@ -23,4 +27,22 @@
         display: block;
         margin: 0 auto;
     }
+ }
+
+ @media (max-width:520px) {
+    .img-decoration-title-left {
+       display:none;
+    }
+   .img-decoration-title-right {
+       display:none;
+   }
+
+   .footer-decoration-title {
+       display:none;
+   }
+
+   .footer-decoration-title-mini {
+        display: block;
+        margin: 0 auto;
+   }
  }
