@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+        "title":"Red wine",
+        "image":"red-wine-botle.jpg",
+        "description":"The best choice for a romantic dinner",
+        "price":"299.99"
+    },
+    {
+        "id":"2",
+        "title":"Dry wine",
+        "image":"dry-wine-botle.jpg",
+        "description":"The best choice for a romantic dinner",
+        "price":"199.99"
+    },
+    {
+        "id":"3",
+        "title":"White wine",
+        "image":"white-wine-botle.jpg",
+        "description":"The best choice for a romantic dinner",
+        "price":"259.99"
+    }
+]

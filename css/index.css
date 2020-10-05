@@ -2,6 +2,7 @@
 
 body {
     max-width: 1200px;
+    min-width: 370px;
     margin:auto;
     background-color: rgb(255, 255, 255);
 }
@@ -136,44 +137,9 @@ nav #header-nav-padding {
     padding:20px;
 }
 
-#catalog {
-    margin: 20px;
-    color: var(--main-color);
-    font-size: 1.5rem;
-    font-family:  'Lobster', sans-serif;
-    text-align: center;
-    color:white
-}
-
-#table-catalog {
-    background-color: var(--importantText-color);
-    color:white;
-    border-radius: 3px;
-    font-size: 1.0rem;
-}
-
 .btn-primary {
     color: #fff;
     background-color: rgb(133, 50, 150);
     border-color: rgb(133, 50, 150);
 }
 
-#table-catalog-right {
-    display:block;
-    text-align: right;
-    margin-right: 200px;
-}
-
-#table-catalog-left {
-    float:left;
-    margin-left: 200px;
-}
-
-@media (max-width:721px) {
-    #table-catalog-left{
-        margin-left: 0px;
-    }
-    #table-catalog-right {
-        margin-left: 0px;
-    }
-}
