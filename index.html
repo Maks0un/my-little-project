@@ -6,8 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>MyLitleShop</title>
 	<link rel="icon" href="img/mini-heart.png">
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
 	<link rel="stylesheet" href="botstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/indexDecoration.css">
@@ -17,7 +15,7 @@
 
 <body>
 	<header class="container" id="home">
-		<nav id=header-nav-padding class="navbar navbar-expand-lg navbar-light bg-light">
+		<div id=header-nav-padding class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="#">WineGrand</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,12 +35,15 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#contactsFooter">Contacts</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Cart</a>
-					</li>
+					<div>
+						<a class="nav-link openCartLink" href="#modal-cart" data-toggle="modal">
+							<i class="fas fa-shopping-cart"></i>
+							Cart<span id="cart-badge" class="badge badge-light"></span>
+						</a>
+					</div>
 				</ul>
 			</div>
-		</nav>
+		</div>
 
 		<div class="header-banner">
 			<p id="phrase">he best wine shop you could find</p>
@@ -53,10 +54,12 @@
 			<hr>
 			<article id="name-shop">
 				<div>
-					<img src="img/site-decoration-title-right.jpg" alt="decoration title right" class="img-decoration-title-right">
+					<img src="img/site-decoration-title-right.jpg" alt="decoration title right"
+						class="img-decoration-title-right">
 				</div>
 				<div>
-					<img src="img/site-decoration-title-left.jpg" alt="decoration title left" class="img-decoration-title-left">
+					<img src="img/site-decoration-title-left.jpg" alt="decoration title left"
+						class="img-decoration-title-left">
 				</div>
 				<div>
 					<h1>Best Wine Shop</h1>
@@ -124,6 +127,9 @@
 					<li>Dessert</li>
 					<li>Sparkling</li>
 				</lu>
+			</div>
+			<div>
+				<h3 class="clock card-title text-center">00:00:00</h3>
 			</div>
 		</nav>
 	</article>
@@ -238,9 +244,9 @@
 	<footer class="footerText">
 		<div>
 			<article id="contactsFooter">
-				<div>
+				<div class="contact-item-div" >
 					<ul>
-						<li class="contact-item">Contacts:</li>
+						<li class="contact-item contact-item-import">Contacts:</li>
 						<li class="contact-item">number:<br>+38(099) 099 09 09</li>
 						<li class="contact-item">Adres:</li>
 						<li class="contact-item">Kitsmany - Ukraine</li>
