@@ -35,20 +35,20 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#contactsFooter">Contacts</a>
 					</li>
-					<div>
-						<a class="nav-link openCartLink" href="#modal-cart" data-toggle="modal">
-							<i class="fas fa-shopping-cart"></i>
-							Cart<span id="cart-badge" class="badge badge-light"></span>
-						</a>
-					</div>
+				</ul>
+				<div>
+					<a class="nav-link openCartLink" href="#modal-cart" data-toggle="modal">
+						<i class="fas fa-shopping-cart"></i>
+						Cart<span id="cart-badge" class="badge badge-light"></span>
+					</a>
+				</div>
 				</ul>
 			</div>
 		</div>
-
 		<div class="header-banner">
 			<p id="phrase">he best wine shop you could find</p>
+		</div>
 	</header>
-	</hr>
 	<article>
 		<div class="carouselDiv">
 			<hr>
@@ -65,12 +65,13 @@
 					<h1>Best Wine Shop</h1>
 				</div>
 				<div>
-					<img src="img/footer-decoration.jpg" class="footer-decoration-title">
-					<img src="img/footer-decoration-mini.jpg" class="footer-decoration-title-mini">
+					<img src="img/footer-decoration.jpg" class="footer-decoration-title" alt="footer decoration">
+					<img src="img/footer-decoration-mini.jpg" class="footer-decoration-title-mini"
+						alt="footer decoration">
 				</div>
 			</article>
 			<hr>
-			<div>We Products</div>
+			<div id="we-products">We Products</div>
 			<div id="carouselProducts" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselProducts" data-slide-to="0" class="active"></li>
@@ -104,30 +105,26 @@
 			<h2 class="" id="catalog">Catalog</h2>
 		</div>
 		<nav class="nav-table-catalog">
-			<div id="table-catalog-left">
-				<lu>
-					<li>Red wine</li>
-					<li>White wine</li>
-					<li>Dry wine</li>
-					<li>Sweet</li>
-					<li>Strong</li>
-					<li>Endurance</li>
-					<li>Collectible</li>
-					<li>Liqueur</li>
-				</lu>
-			</div>
-			<div id="table-catalog-right">
-				<lu>
-					<li>vintage</li>
-					<li>without endurance</li>
-					<li>Canteens</li>
-					<li>Semi-dry</li>
-					<li>Semi-sweet</li>
-					<li>Semi-dessert</li>
-					<li>Dessert</li>
-					<li>Sparkling</li>
-				</lu>
-			</div>
+			<lu id="table-catalog-left">
+				<li>Red wine</li>
+				<li>White wine</li>
+				<li>Dry wine</li>
+				<li>Sweet</li>
+				<li>Strong</li>
+				<li>Endurance</li>
+				<li>Collectible</li>
+				<li>Liqueur</li>
+			</lu>
+			<lu id="table-catalog-right">
+				<li>vintage</li>
+				<li>without endurance</li>
+				<li>Canteens</li>
+				<li>Semi-dry</li>
+				<li>Semi-sweet</li>
+				<li>Semi-dessert</li>
+				<li>Dessert</li>
+				<li>Sparkling</li>
+			</lu>
 			<div>
 				<h3 class="clock card-title text-center">00:00:00</h3>
 			</div>
@@ -244,14 +241,12 @@
 	<footer class="footerText">
 		<div>
 			<article id="contactsFooter">
-				<div class="contact-item-div" >
-					<ul>
-						<li class="contact-item contact-item-import">Contacts:</li>
-						<li class="contact-item">number:<br>+38(099) 099 09 09</li>
-						<li class="contact-item">Adres:</li>
-						<li class="contact-item">Kitsmany - Ukraine</li>
-					</ul>
-				</div>
+				<ul class="contact-item-div">
+					<li class="contact-item contact-item-import">Contacts:</li>
+					<li class="contact-item">number:<br>+38(099) 099 09 09</li>
+					<li class="contact-item">Adres:</li>
+					<li class="contact-item">Kitsmany - Ukraine</li>
+				</ul>
 			</article>
 			<div>
 				<a href="#home" id="btn-footer" class="btn btn-primary">Back home</a>

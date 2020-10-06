@@ -16,6 +16,13 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
+#we-products {
+    color:var(--importantText-color);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-family: 'Lobster', sans-serif;
+}
+
 .navbar-brand {
     font-family: 'Lobster', sans-serif;
     font-size: 2.6rem;
